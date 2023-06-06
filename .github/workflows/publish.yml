@@ -27,7 +27,7 @@ jobs:
 
       - name: Build feed
         run: python3 generate.py
-        environment:
+        env:
           FEED_AUTHOR: ${{ secrets.FEED_AUTHOR }}
           FEED_NAME: ${{ secrets.FEED_NAME }}
           FEED_REPO: ${{ secrets.FEED_REPO }}
