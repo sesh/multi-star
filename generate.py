@@ -25,6 +25,10 @@ def content_for_post(post):
     return post["html"]
 
 
+def title_for_post(post):
+    return post.get("title", "")
+
+
 def save_jsonfeed(posts, *, feed_name, skip_existing_feed=False, duplicate_check_key="id", max_items=1000):
     items = []
 
@@ -44,6 +48,7 @@ def save_jsonfeed(posts, *, feed_name, skip_existing_feed=False, duplicate_check
                     "url": url_for_post(post),
                     "content_html": content_for_post(post),
                     "date_published": post["created_at"] + "Z",
+                    "title": title_for_post(post),
                     "authors": [
                         {
                             "name": AUTHOR_NAME,
