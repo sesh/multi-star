@@ -1,0 +1,42 @@
+name: Publish Multi Star
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Download existing feed
+        run: curl https://sesh.github.io/multi-star/${{ secrets.FEED_NAME }}.json > out/${{ secrets.FEED_NAME }}.json
+
+      - name: Build feed
+        run: python3 generate.py
+        environment:
+          FEED_AUTHOR: ${{ secrets.FEED_AUTHOR }}
+          FEED_NAME: ${{ secrets.FEED_NAME }}
+          FEED_REPO: ${{ secrets.FEED_REPO }}
+          FEED_USERNAME: ${{ secrets.FEED_USERNAME }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+
+
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: out
