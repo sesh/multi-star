@@ -134,6 +134,9 @@ def starred(user):
 
     stars = []
     for star in response.json:
+        if "starred_at" not in star:
+            print(star)
+
         stars.append(star)
 
     print(user, len(stars))
@@ -152,7 +155,7 @@ if __name__ == "__main__":
     # filter to stars in the last ~60 days
     print("All stars:", len(stars))
     after = (datetime.utcnow() - timedelta(days=60)).replace(tzinfo=timezone.utc)
-    stars = [star for star in stars if datetime.fromisoformat(star["starred_at"]).replace(tzinfo=timezone.utc) > after]
+    stars = [star for star in stars if datetime.fromisoformat(star["starred_at"]).replace(tzinfo=timezone.utc) > after if "starred_at" in star]
     print("Filtered by date:", len(stars))
 
     repos = []
