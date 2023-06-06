@@ -25,7 +25,7 @@ def content_for_post(post):
     return post["html"]
 
 
-def save_jsonfeed(posts, *, feed_name, skip_existing_feed=False, duplicate_check_key="id"):
+def save_jsonfeed(posts, *, feed_name, skip_existing_feed=False, duplicate_check_key="id", max_items=1000):
     items = []
 
     if not skip_existing_feed and (Path("out") / feed_name).exists():
@@ -57,7 +57,7 @@ def save_jsonfeed(posts, *, feed_name, skip_existing_feed=False, duplicate_check
         "title": "Multi Star",
         "home_page_url": f"https://github.com/{GITHUB_USERNAME}/{REPOSITORY_NAME}",
         "feed_url": f"https://{GITHUB_USERNAME}.github.io/{REPOSITORY_NAME}/{feed_name}",
-        "items": sorted(items, key=lambda item: item["date_published"], reverse=True)[:100],
+        "items": sorted(items, key=lambda item: item["date_published"], reverse=True)[:max_items],
     }
 
     return j
