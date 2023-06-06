@@ -29,7 +29,7 @@ def title_for_post(post):
     return post.get("title", "")
 
 
-def save_jsonfeed(posts, *, feed_name, skip_existing_feed=True, duplicate_check_key="id", max_items=1000):
+def save_jsonfeed(posts, *, feed_name, skip_existing_feed=False, duplicate_check_key="id", max_items=1000):
     items = []
 
     if not skip_existing_feed and (Path("out") / feed_name).exists():
