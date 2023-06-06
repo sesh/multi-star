@@ -16,3 +16,5 @@ In your Github Repository set up the following secrets:
 Update your repository settings to [allow Github actions read and write permissions to your repository](./settings/actions).
 
 Once configured manually run the Github Action.
+
+Finally, jump back into settings to enable Pages. It should deploy from the `gh-pages` branch.
