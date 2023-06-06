@@ -1,0 +1,140 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Multi Star",
+  "home_page_url": "https://github.com/sesh/multi-star",
+  "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
+  "items": [
+    {
+      "id": "hendricius/the-sourdough-framework",
+      "url": "https://github.com/hendricius/the-sourdough-framework",
+      "content_html": "<a href=\"https://github.com/hendricius/the-sourdough-framework\">hendricius/the-sourdough-framework</a>",
+      "date_published": "2023-06-06T00:43:47.451403Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "Stability-AI/StableLM",
+      "url": "https://github.com/Stability-AI/StableLM",
+      "content_html": "<a href=\"https://github.com/Stability-AI/StableLM\">Stability-AI/StableLM</a>",
+      "date_published": "2023-06-06T00:43:47.451401Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "imartinez/privateGPT",
+      "url": "https://github.com/imartinez/privateGPT",
+      "content_html": "<a href=\"https://github.com/imartinez/privateGPT\">imartinez/privateGPT</a>",
+      "date_published": "2023-06-06T00:43:47.451400Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "smol-ai/developer",
+      "url": "https://github.com/smol-ai/developer",
+      "content_html": "<a href=\"https://github.com/smol-ai/developer\">smol-ai/developer</a>",
+      "date_published": "2023-06-06T00:43:47.451398Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "drizzle-team/drizzle-orm",
+      "url": "https://github.com/drizzle-team/drizzle-orm",
+      "content_html": "<a href=\"https://github.com/drizzle-team/drizzle-orm\">drizzle-team/drizzle-orm</a>",
+      "date_published": "2023-06-06T00:43:47.451396Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "microsoft/guidance",
+      "url": "https://github.com/microsoft/guidance",
+      "content_html": "<a href=\"https://github.com/microsoft/guidance\">microsoft/guidance</a>",
+      "date_published": "2023-06-06T00:43:47.451392Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "open-meteo/open-meteo",
+      "url": "https://github.com/open-meteo/open-meteo",
+      "content_html": "<a href=\"https://github.com/open-meteo/open-meteo\">open-meteo/open-meteo</a>",
+      "date_published": "2023-06-06T00:43:47.451390Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "Significant-Gravitas/Auto-GPT",
+      "url": "https://github.com/Significant-Gravitas/Auto-GPT",
+      "content_html": "<a href=\"https://github.com/Significant-Gravitas/Auto-GPT\">Significant-Gravitas/Auto-GPT</a>",
+      "date_published": "2023-06-06T00:43:47.451388Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "wader/fq",
+      "url": "https://github.com/wader/fq",
+      "content_html": "<a href=\"https://github.com/wader/fq\">wader/fq</a>",
+      "date_published": "2023-06-06T00:43:47.451386Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "ellie/atuin",
+      "url": "https://github.com/ellie/atuin",
+      "content_html": "<a href=\"https://github.com/ellie/atuin\">ellie/atuin</a>",
+      "date_published": "2023-06-06T00:43:47.451385Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "mitsuhiko/rye",
+      "url": "https://github.com/mitsuhiko/rye",
+      "content_html": "<a href=\"https://github.com/mitsuhiko/rye\">mitsuhiko/rye</a>",
+      "date_published": "2023-06-06T00:43:47.451382Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "brexhq/prompt-engineering",
+      "url": "https://github.com/brexhq/prompt-engineering",
+      "content_html": "<a href=\"https://github.com/brexhq/prompt-engineering\">brexhq/prompt-engineering</a>",
+      "date_published": "2023-06-06T00:43:47.451368Z",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    }
+  ]
+}
