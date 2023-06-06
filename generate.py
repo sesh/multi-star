@@ -172,6 +172,7 @@ if __name__ == "__main__":
         {
             "html": f'<a href="https://github.com/{repo}">{repo}</a>',
             "id": repo,
+            "title": repo,
             "created_at": datetime.utcnow().isoformat(),
             "url": f"https://github.com/{repo}",
         }
