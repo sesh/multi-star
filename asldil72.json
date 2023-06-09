@@ -5,6 +5,18 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "minimaxir/simpleaichat",
+      "url": "https://github.com/minimaxir/simpleaichat",
+      "content_html": "<a href=\"https://github.com/minimaxir/simpleaichat\">minimaxir/simpleaichat</a>",
+      "date_published": "2023-06-09T00:13:13.823618Z",
+      "title": "minimaxir/simpleaichat",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "hendricius/the-sourdough-framework",
       "url": "https://github.com/hendricius/the-sourdough-framework",
       "content_html": "<a href=\"https://github.com/hendricius/the-sourdough-framework\">hendricius/the-sourdough-framework</a>",
