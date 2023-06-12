@@ -162,9 +162,6 @@ def repo_html(repo):
 
 
 if __name__ == "__main__":
-    repo_html("sesh/basehtml")
-    raise Exception
-
     feed_name = f"{FEED_NAME}.json"
 
     all_usernames = [x["login"] for x in following()]
