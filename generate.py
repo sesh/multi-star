@@ -157,7 +157,9 @@ def repo_html(repo):
 
     html = f"<p><a href='{response.json['html_url']}'>{response.json['full_name']}</a></p>"
     html += f"<p>{response.json['description']}</p>"
-    html += f"<p>{response.json['language']} | Stargazers: {response.json['stargazers_count']} | Homepage: {response.json['homepage']}</p>"
+    html += f"<p>{response.json['language']}"
+    html += f" | Stargazers: {response.json['stargazers_count']}"
+    html += f" | Homepage: {response.json['homepage']}</p>"
     return html
 
 
