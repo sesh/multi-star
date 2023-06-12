@@ -148,7 +148,23 @@ def starred(user):
     return stars
 
 
+def repo_html(repo):
+    url = f"https://api.github.com/repos/{repo}"
+    response = request(
+        url,
+        headers={"Authorization": f"token {GITHUB_TOKEN}"},
+    )
+
+    html = f"<p><a href='{response.json['html_url']}'>{response.json['full_name']}</a></p>"
+    html += f"<p>{response.json['description']}</p>"
+    html += f"<p>{response.json['language']} | Stargazers: {response.json['stargazers_count']} | Homepage: {response.json['homepage']}</p>"
+    return html
+
+
 if __name__ == "__main__":
+    repo_html("sesh/basehtml")
+    raise Exception
+
     feed_name = f"{FEED_NAME}.json"
 
     all_usernames = [x["login"] for x in following()]
@@ -180,7 +196,7 @@ if __name__ == "__main__":
 
     posts = [
         {
-            "html": f'<a href="https://github.com/{repo}">{repo}</a>',
+            "html": repo_html(repo),
             "id": repo,
             "title": repo,
             "created_at": datetime.utcnow().isoformat(),
