@@ -5,6 +5,30 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "steven-tey/novel",
+      "url": "https://github.com/steven-tey/novel",
+      "content_html": "<p><a href='https://github.com/steven-tey/novel'>steven-tey/novel</a></p><p>Notion-style WYSIWYG editor with AI-powered autocompletions.</p><p>TypeScript | Stargazers: 3351 | Homepage: https://novel.sh</p>",
+      "date_published": "2023-06-22T00:11:57.148513Z",
+      "title": "steven-tey/novel",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "simonw/llm",
+      "url": "https://github.com/simonw/llm",
+      "content_html": "<p><a href='https://github.com/simonw/llm'>simonw/llm</a></p><p>Access large language models from the command-line</p><p>Python | Stargazers: 489 | Homepage: https://llm.datasette.io</p>",
+      "date_published": "2023-06-22T00:11:55.991444Z",
+      "title": "simonw/llm",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "aidenybai/million",
       "url": "https://github.com/aidenybai/million",
       "content_html": "<a href=\"https://github.com/aidenybai/million\">aidenybai/million</a>",
