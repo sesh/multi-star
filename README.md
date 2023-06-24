@@ -1,4 +1,4 @@
-Finds Github repositories that multiple people your are following have starred.
+Finds Github repositories that multiple people you are following have starred.
 Creates a JSON feed that you can subscribe to and deploys it to Github Pages.
 
 ---
