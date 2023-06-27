@@ -5,6 +5,18 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "binpash/try",
+      "url": "https://github.com/binpash/try",
+      "content_html": "<p><a href='https://github.com/binpash/try'>binpash/try</a></p><p>\"Do, or do not. There is no try.\"  We're setting out to change that: `try cmd` and commit---or not.</p><p>Shell | Stargazers: 2901 | Homepage: </p>",
+      "date_published": "2023-06-27T00:13:33.725952Z",
+      "title": "binpash/try",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "steven-tey/novel",
       "url": "https://github.com/steven-tey/novel",
       "content_html": "<p><a href='https://github.com/steven-tey/novel'>steven-tey/novel</a></p><p>Notion-style WYSIWYG editor with AI-powered autocompletions.</p><p>TypeScript | Stargazers: 3351 | Homepage: https://novel.sh</p>",
