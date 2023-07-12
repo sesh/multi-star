@@ -5,6 +5,30 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "danswer-ai/danswer",
+      "url": "https://github.com/danswer-ai/danswer",
+      "content_html": "<p><a href='https://github.com/danswer-ai/danswer'>danswer-ai/danswer</a></p><p>OpenSource Enterprise QA</p><p>Python | Stargazers: 1130 | Homepage: https://docs.danswer.dev/</p>",
+      "date_published": "2023-07-12T01:05:32.279203Z",
+      "title": "danswer-ai/danswer",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
+      "id": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "content_html": "<p><a href='https://github.com/immich-app/immich'>immich-app/immich</a></p><p>Self-hosted photo and video backup solution directly from your mobile phone.</p><p>TypeScript | Stargazers: 14438 | Homepage: https://immich.app</p>",
+      "date_published": "2023-07-12T01:05:31.810455Z",
+      "title": "immich-app/immich",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "ggerganov/llama.cpp",
       "url": "https://github.com/ggerganov/llama.cpp",
       "content_html": "<p><a href='https://github.com/ggerganov/llama.cpp'>ggerganov/llama.cpp</a></p><p>Port of Facebook's LLaMA model in C/C++</p><p>C | Stargazers: 33226 | Homepage: None</p>",
