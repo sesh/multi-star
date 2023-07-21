@@ -5,6 +5,18 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "dabeaz-course/python-mastery",
+      "url": "https://github.com/dabeaz-course/python-mastery",
+      "content_html": "<p><a href='https://github.com/dabeaz-course/python-mastery'>dabeaz-course/python-mastery</a></p><p>Advanced Python Mastery (course by @dabeaz)</p><p>Python | Stargazers: 4108 | Homepage: </p>",
+      "date_published": "2023-07-21T00:58:39.605964Z",
+      "title": "dabeaz-course/python-mastery",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "danswer-ai/danswer",
       "url": "https://github.com/danswer-ai/danswer",
       "content_html": "<p><a href='https://github.com/danswer-ai/danswer'>danswer-ai/danswer</a></p><p>OpenSource Enterprise QA</p><p>Python | Stargazers: 1130 | Homepage: https://docs.danswer.dev/</p>",
