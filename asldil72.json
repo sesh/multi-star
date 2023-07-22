@@ -5,6 +5,18 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "microsoft/TypeChat",
+      "url": "https://github.com/microsoft/TypeChat",
+      "content_html": "<p><a href='https://github.com/microsoft/TypeChat'>microsoft/TypeChat</a></p><p>TypeChat is a library that makes it easy to build natural language interfaces using types.</p><p>TypeScript | Stargazers: 1472 | Homepage: https://microsoft.github.io/TypeChat/</p>",
+      "date_published": "2023-07-22T00:57:39.217045Z",
+      "title": "microsoft/TypeChat",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "dabeaz-course/python-mastery",
       "url": "https://github.com/dabeaz-course/python-mastery",
       "content_html": "<p><a href='https://github.com/dabeaz-course/python-mastery'>dabeaz-course/python-mastery</a></p><p>Advanced Python Mastery (course by @dabeaz)</p><p>Python | Stargazers: 4108 | Homepage: </p>",
