@@ -5,6 +5,18 @@
   "feed_url": "https://sesh.github.io/multi-star/asldil72.json",
   "items": [
     {
+      "id": "karpathy/llama2.c",
+      "url": "https://github.com/karpathy/llama2.c",
+      "content_html": "<p><a href='https://github.com/karpathy/llama2.c'>karpathy/llama2.c</a></p><p>Inference Llama 2 in one file of pure C</p><p>Python | Stargazers: 1099 | Homepage: </p>",
+      "date_published": "2023-07-24T00:58:26.346087Z",
+      "title": "karpathy/llama2.c",
+      "authors": [
+        {
+          "name": "sesh"
+        }
+      ]
+    },
+    {
       "id": "microsoft/TypeChat",
       "url": "https://github.com/microsoft/TypeChat",
       "content_html": "<p><a href='https://github.com/microsoft/TypeChat'>microsoft/TypeChat</a></p><p>TypeChat is a library that makes it easy to build natural language interfaces using types.</p><p>TypeScript | Stargazers: 1472 | Homepage: https://microsoft.github.io/TypeChat/</p>",
